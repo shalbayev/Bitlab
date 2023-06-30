@@ -1,0 +1,18 @@
+header{
+    height:50px;
+    background-color: #77080a;
+    padding-left:10px;
+    padding-top: 25px;
+
+}
+header a{
+    text-decoration: none;
+    font-size: 17px;
+    color:grey;
+}
+
+.logo{
+    color:white;
+}
+
+

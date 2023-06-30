@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+  <style>
+
+    button{
+      background-color: rgba(122,98,214,0.76);
+      color:white;
+      width: 50px;
+    }
+
+    span{
+      margin:10px;
+    }
+  </style>
+</head>
+<body>
+
+<button onclick="plus()">+</button>
+<span  id="number" >85</span>
+<button onclick="minus()">-</button>
+
+<script>
+  function plus(){
+    number.innerText++
+  }
+  function minus(){
+    number.innerText--
+  }
+</script>
+
+
+</body>
+</html>

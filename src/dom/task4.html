@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    #card input{
+      width: 40px;
+      margin:5px;
+    }
+    #card span{
+      margin-right:85px;
+    }
+    #name_surname span{
+      margin-right: 5px;
+    }
+    #cvv input{
+      width:40px;
+      margin:5px;
+      margin-top: 25px;
+    }
+    #cvv span{
+      margin-right:95px;
+    }
+    button{
+      margin-top: 20px;
+    }
+
+  </style>
+</head>
+<body>
+<div id="card">
+  <span>CARD:</span>
+  <input type="text" id="card1">
+  <input type="text" id="card2">
+  <input type="text" id="card3">
+  <input type="text" id="card4"></div>
+
+<br>
+
+<div id="name_surname">
+  <span>NAME SURNAME:</span>
+  <input type="text" id="ns">
+</div>
+
+<div id="cvv">
+  <span>CVV:</span>
+  <input type="password" id="pass">
+</div>
+<button onclick="complete()">COMPLETE</button>
+<script>
+  function complete(){
+    if(card1.value==4413 && card2.value==4341 && card3.value==3534 && card4.value==2424 && ns.value=="ILYAS ZHUANYSHEV" && pass.value==322){
+      document.body.innerText = "Transaction completed";
+    }
+    else
+      document.body.innerText = "Invalid Data";
+
+  }
+</script>
+</body>
+</html>
